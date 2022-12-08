@@ -1,0 +1,160 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    justify-content: center;
+    align-items: flex-start;
+
+    
+    background-image: url("images/Nashville.jpg");
+    background-size: cover;
+    height: 350px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.stupid-margin {
+    margin: 0 auto;
+}
+
+#visit-head {
+    margin: 10px auto;
+    padding: 3px 12px;
+    width: 250px;
+    background: #1D3557;
+    border-radius: 10px; 
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#subhead {
+    background: #457B9D;
+    margin: 0px auto;
+    width: 425px;
+    border-radius: 10px;
+    padding: 3px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.activities-section {
+    margin-top: 0px;
+    height: 378px;
+    background: #F1FAEE;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.act-img {
+    border-radius: 50%;
+}
+#activities-box {
+    display: flex;
+    align-content: row;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+    margin: 0px;
+    
+}
+
+#act-head {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.act-subhead {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #1D3557;
+    margin: 0px;
+}
+
+.act-subhead:hover {
+    color: #FFFFFF;
+}
+
+#nash-live:hover {
+    background-image: url("https://media.giphy.com/media/WsFSi1sAzISJ1iqCtP/giphy.gif");
+    background-size: 315px;
+    color: #FFFFFF;
+}
+
+#nash-park:hover {
+    background-image: url("https://media.giphy.com/media/hqrDfTSyodru9ry2iB/giphy.gif");
+    background-size: 315px;
+    color: #FFFFFF;
+}
+
+#nash-yum:hover  {
+    background-image: url("https://media.giphy.com/media/RfTKHrXF4mFkK34fzt/giphy-downsized-large.gif");
+    background-size: 315px;
+    color: #FFFFFF;
+}
+
+.act-ind {
+    width: 200px;
+}
+
+#guide-img{
+    width: 180px;
+    height: 250px;
+    margin: 23px 13px;
+    border-radius: 10px;
+}
+
+#guide-quote {
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
+
+#guide-text {
+    margin-top: 50px;
+    margin-right: 11px;
+}
+
+.guide-section {
+    width: 400px;
+    color: #1D3557;
+    display: flex;
+    background: #A8DADC;
+    border-bottom: 4px solid #1D3557; 
+    border-radius: 10px;
+    margin: 50px auto;
+    justify-content: center;
+    align-content: center;
+    
+}
